@@ -12,6 +12,9 @@ const Home = () => {
     const handleDropdown = () => {
     router("/dropdowns");
   };
+     const handleComboDropdown = () => {
+    router("/new-combo-dropdown");
+  };
   return (
     <div>
       <h1 className="text-blue-500">Welcome to React</h1>
@@ -26,6 +29,7 @@ const Home = () => {
 
         <button onClick={handleInputfields}>Visit Input Fields</button>
         <button onClick={handleDropdown}>Visit Dropdowns</button>
+        <button onClick={handleComboDropdown}>Visit New Combo Dropdown</button>
       </div>
     </div>
   );

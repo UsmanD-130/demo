@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Inputfields from './pages/Inputfields'
 import Dropdowns from './pages/Dropdowns'
+import NewComboDropdown from './ReusableComponents/NewComboDropdown'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Route path='/' element={<Home />}/>
         <Route path='/inputfields' element={<Inputfields />}/>
         <Route path='/dropdowns' element={<Dropdowns />}/>
+        <Route path='/new-combo-dropdown' element={<NewComboDropdown />} />
       </Routes>
     </div>
   )
