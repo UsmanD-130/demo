@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Inputfields from './pages/Inputfields'
 import Dropdowns from './pages/Dropdowns'
 import NewComboDropdown from './ReusableComponents/NewComboDropdown'
+import FileUpload from './pages/FileUpload'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path='/inputfields' element={<Inputfields />}/>
         <Route path='/dropdowns' element={<Dropdowns />}/>
         <Route path='/new-combo-dropdown' element={<NewComboDropdown />} />
+        <Route path='/file-upload' element={<FileUpload />} />
       </Routes>
     </div>
   )

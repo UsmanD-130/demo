@@ -15,6 +15,9 @@ const Home = () => {
      const handleComboDropdown = () => {
     router("/new-combo-dropdown");
   };
+    const handleFileUpload = () => {
+    router("/file-upload");
+  };
   return (
     <div>
       <h1 className="text-blue-500">Welcome to React</h1>
@@ -30,6 +33,7 @@ const Home = () => {
         <button onClick={handleInputfields}>Visit Input Fields</button>
         <button onClick={handleDropdown}>Visit Dropdowns</button>
         <button onClick={handleComboDropdown}>Visit New Combo Dropdown</button>
+        <button onClick={handleFileUpload}>Visit File Upload</button>
       </div>
     </div>
   );
